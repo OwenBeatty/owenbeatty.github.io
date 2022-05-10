@@ -1,12 +1,28 @@
 body {
-    background-color: #F5EAEA;
-    color: #5B5656;
+    background-color: #417D7A;
+    color: #EDE6DB;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+}
+
+h6 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;
 }
 
 #title {
-    background-color: #5B5656;
-    color: #F5EAEA;
-    height: 45rem;
+    background-color: #1A3C40;
+    color: #EDE6DB;
+    height: 25rem;
 }
 
 .navbar {
@@ -37,12 +53,37 @@ body {
 }
 
 .card {
-    background-color: #5B5656;
-    color: #F5EAEA;
+    background-color: #EDE6DB;
+    color: #1A3C40;
 }
 
-.card-header {
-    padding: 1rem;
-    background-color: #7FCD91;
-    color: #4D4646;
+.card-title {
+    font-size: 2rem;
+}
+
+.waves {
+    background-color: #1A3C40;
+    aspect-ratio: 2560/450;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wave1 {
+    background-image: url('../images/background-waves.svg');
+}
+
+footer {
+    padding: 5% 0% 1%;
+    text-align: center;
+}
+
+footer a, footer a:hover {
+    color: #EDE6DB;
+    font-size: 2rem;
+}
+
+.footer-icon {
+    margin:2rem
 }
