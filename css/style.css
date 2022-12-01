@@ -19,10 +19,15 @@ h6 {
     font-weight: 300;
 }
 
-#about{
+#title {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#about {
     background-color: #417D7A;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .profile-picture {
@@ -63,13 +68,13 @@ h6 {
 }
 
 .flex h1 {
-    font-size: calc(2rem + 4vw);
+    font-size: calc(2rem + 6vw);
     padding: 6rem .5rem .5rem 0;
 }
 
 .flex h6 {
     text-align: right;
-    font-size: calc(1rem + 2vw);
+    font-size: calc(1rem + 4vw);
     padding: 0rem .5rem .5rem 0;
 }
 
