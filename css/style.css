@@ -1,5 +1,5 @@
 body {
-    background-color: #417D7A;
+    background-color: #1A3C40;
     color: #EDE6DB;
     font-family: 'Karla', sans-serif;
     font-weight: 300;
@@ -19,14 +19,38 @@ h6 {
     font-weight: 300;
 }
 
-#title {
-    background-color: #1A3C40;
-    color: #EDE6DB;
-    height: 25rem;
+#about{
+    background-color: #417D7A;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 60%;
+    border: #EDE6DB;
+    border-style: solid;
+    border-width: .5rem;
+    margin-bottom: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#projects {
+    background-color: #EDE6DB;
+    color: #417D7A;
+    padding-top: 6rem;
 }
 
 .navbar {
     padding: 1rem;
+    background-color: #1A3C40;
 }
 
 .nav-item {
@@ -39,48 +63,59 @@ h6 {
 }
 
 .flex h1 {
-    font-size: 8rem;
-    padding-top: 6rem;
+    font-size: calc(2rem + 4vw);
+    padding: 6rem .5rem .5rem 0;
 }
 
 .flex h6 {
     text-align: right;
-    font-size: 3rem;
-}
-
-.container-fluid {
-    padding: 3% 25%;
+    font-size: calc(1rem + 2vw);
+    padding: 0rem .5rem .5rem 0;
 }
 
 .card {
-    background-color: #EDE6DB;
-    color: #1A3C40;
+    background-color: #417D7A;
+    color: #EDE6DB;
+    margin-top: 1rem;
 }
 
 .card-title {
     font-size: 2rem;
 }
 
-.waves {
+a.nostyle {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.waves1 {
     background-color: #1A3C40;
     aspect-ratio: 2560/450;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-.wave1 {
     background-image: url('../images/background-waves.svg');
 }
 
+.waves2 {
+    background-color: #417D7A;
+    aspect-ratio: 2560/200;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../images/background-waves2.svg');
+}
+
 footer {
+    background-color: #EDE6DB;
     padding: 5% 0% 1%;
     text-align: center;
 }
 
 footer a, footer a:hover {
-    color: #EDE6DB;
+    color: #417D7A;
     font-size: 2rem;
 }
 
