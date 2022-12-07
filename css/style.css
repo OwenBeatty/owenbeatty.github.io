@@ -90,6 +90,7 @@ h6 {
 .card {
     background-color: #417D7A;
     color: #EDE6DB;
+    height: 100%;
 }
 
 .card-body, .card-footer {
