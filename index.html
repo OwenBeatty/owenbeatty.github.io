@@ -7,22 +7,28 @@
 
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
+    <!-- Google Fonts links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&family=Karla:wght@300&display=swap" rel="stylesheet"> 
 
+    <!-- Bootstrap links -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    
+    <!-- Devicon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> 
+
     <link rel="stylesheet" href="css/style.css">
 
     <title>Owen Beatty</title>
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
     <section id="title">
 
         <!-- Nav Bar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,12 +44,13 @@
                         <a class="nav-link" href="https://github.com/OwenBeatty?tab=repositories" target="_blank" rel="noopener noreferrer">Github <i class="bi bi-box-arrow-up-right"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.linkedin.com/in/owen-beatty-472121179" target="_blank" rel="noopener noreferrer">LinkedIn   <i class="bi bi-box-arrow-up-right"></i></a>
+                        <a class="nav-link" href="https://www.linkedin.com/in/owenbeatty" target="_blank" rel="noopener noreferrer">LinkedIn   <i class="bi bi-box-arrow-up-right"></i></a>
                     </li>
                 </ul>
             </div>
         </nav>
 
+        <!-- Heading -->
         <div class="flex">
             <header>
                 <h1>Owen Beatty</h1>
@@ -53,28 +60,64 @@
 
     </section>
 
+    <!-- SVG section divider -->
     <div class="waves1"></div>
 
+    <!-- About section -->
     <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 profile">
                     <img src="images/pfp.jpg" class="profile-picture">
                     <h2>Get in touch</h2>
-                    <p><a href="mailto:owendjbeatty@gmail.com" class="nostyle"><i class="bi bi-envelope"></i> owendjbeatty@gmail.com</a></p>
-                    <p><a href="https://www.linkedin.com/in/owen-beatty-472121179" target="_blank" rel="noopener noreferrer" class="nostyle"><i class="bi bi-linkedin"></i> Linkedin</a></p>
+                    <p><a href="mailto:owendjbeatty@gmail.com" class="no-style"><i class="bi bi-envelope"></i> owendjbeatty@gmail.com</a></p>
+                    <p><a href="https://www.linkedin.com/in/owenbeatty" target="_blank" rel="noopener noreferrer" class="no-style"><i class="bi bi-linkedin"></i> Linkedin <i class="bi bi-box-arrow-up-right"></i></a></p>
                 </div>
                 <div class="col-lg-8">
-                    <h1>About me</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula ac justo in rutrum. Ut sodales, tortor eu molestie consequat, lacus urna dictum magna, non tristique nibh sem quis neque. Aenean ut diam at purus rutrum porttitor at at neque. Vivamus non aliquam mi. Praesent blandit nibh lectus, ut cursus erat laoreet nec. Morbi aliquam mollis nulla congue volutpat. Fusce semper dolor dui. Donec a fringilla massa. Morbi sit amet vulputate ex. Suspendisse libero dui, scelerisque ut quam ut, mattis lacinia lorem. Ut lobortis, nisi vel volutpat condimentum, diam orci consequat urna, eu pulvinar neque mauris ac dui. Cras consectetur sapien vitae leo ultricies semper. Donec tincidunt vehicula velit, nec gravida lacus maximus vitae. Phasellus vitae pretium velit.</p>
-            
+                    <h1>Hi, I'm Owen</h1>
+                    <div class="bio">
+                        <p>
+                            I'm a full stack web developer with a focus on front-end. I graduated from the Red River Polytechnic Business Information Technology program in 2020, and have continued to learn new web development languages and technologies through online courses since.
+                            A problem solver, always learning and further mastering my craft.
+                        </p>
+                        <p>
+                            I've had my hand on a mouse for as long as I can remember, and even though I've lived in Winnipeg, Manitoba my whole life I've always been exploring the world through the internet.
+                            In my spare time I enjoy traveling, reading, hiking, and playing video games with my friends.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <h2>My Skills</h2>
+                        <div class="col-lg-6">
+                            <h4>Front-End</h4>
+                            <p>
+                                <span class="badge"><i class="devicon-html5-plain"></i> HTML5</span>
+                                <span class="badge"><i class="devicon-css3-plain"></i> CSS3</span>
+                                <span class="badge"><i class="devicon-javascript-plain"></i> JavaScript</span>
+                                <span class="badge"><i class="devicon-react-original"></i> React</span>
+                                <span class="badge"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
+                                <span class="badge">EJS</span>
+                            </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <h4>Back-End</h4>
+                            <p>
+                                <span class="badge"><i class="devicon-nodejs-plain"></i> Node.js</span>
+                                <span class="badge"><i class="devicon-express-original"></i> Express.js</span>
+                                <span class="badge"><i class="devicon-mongodb-plain"></i> MongoDB</span>
+                                <span class="badge"><i class="devicon-sqlite-plain"></i> SQLite</span>
+                                <span class="badge"><i class="devicon-php-plain"></i> PHP</span>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- SVG section divider -->
     <div class="waves2"></div>
 
+    <!-- Projects section -->
     <section id="projects">
         <div class="container">
             <div class="container-fluid">
@@ -87,39 +130,89 @@
                             <div class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="images/ssk1.png" class="d-block w-100 card-img-top" alt="Scrabble Score Keeper">
+                                        <input type="image" src="images/ssk1.png" class="d-block w-100 card-img-top" alt="Scrabble Score Keeper" data-bs-toggle="modal" data-bs-target="#modal-ssk1">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="images/ssk2.png" class="d-block w-100 card-img-top" alt="Scrabble Score Keeper">
+                                        <input type="image" src="images/ssk2.png" class="d-block w-100 card-img-top" alt="Scrabble Score Keeper"  data-bs-toggle="modal" data-bs-target="#modal-ssk2">
                                     </div>
                                 </div>
                             </div>
 
                             <div class="card-body" style="transform: rotate(0);">
-                                <h5 class="card-title"><a href="https://ssk.owenbeatty.com/" target="_blank" rel="noopener noreferrer" class="stretched-link nostyle">Scrabble Score Keeper <i class="bi bi-box-arrow-up-right"></i></a></h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula ac justo in rutrum. Ut sodales, tortor eu molestie consequat, lacus urna dictum magna, non tristique nibh sem quis neque. Aenean ut diam at purus rutrum porttitor at at neque. Vivamus non aliquam mi. Praesent blandit nibh lectus, ut cursus erat laoreet nec.</p>
+                                <h2 class="card-title"><a href="https://ssk.owenbeatty.com/" target="_blank" rel="noopener noreferrer" class="stretched-link no-style">Scrabble Score Keeper <i class="bi bi-box-arrow-up-right"></i></a></h2>
+                                <p class="card-text">MERN stack website used to track Scrabble game scores that you can save and view anytime, from any device. Optimized for desktop and mobile with Responsive Web Design.</p>
+                                <p>
+                                    <span class="badge"><i class="devicon-react-original"></i> React</span>
+                                    <span class="badge"><i class="devicon-nodejs-plain"></i> Node.js</span>
+                                    <span class="badge"><i class="devicon-express-original"></i> Express.js</span>
+                                    <span class="badge"><i class="devicon-mongodb-plain"></i> MongoDB</span>
+                                    <span class="badge"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/OwenBeatty/ssk-frontend" target="_blank" rel="noopener noreferrer" class="no-style"><i class="bi bi-github"></i> Repository - Front-End <i class="bi bi-box-arrow-up-right"></i></a> | <a href="https://github.com/OwenBeatty/ssk-backend" target="_blank" rel="noopener noreferrer" class="no-style">Back-End <i class="bi bi-box-arrow-up-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="card">
-                            <img src="images/memorygame.png" class="card-img-top" alt="Memory Game">
+                            <input type="image" src="images/memorygame.png" class="card-img-top" alt="Memory Game"  data-bs-toggle="modal" data-bs-target="#modal-memory">
                             <div class="card-body" style="transform: rotate(0);">
-                                <h5 class="card-title"><a href="https://www.owenbeatty.com/memory-game/" target="_blank" rel="noopener noreferrer" class="stretched-link nostyle">Memory Game <i class="bi bi-box-arrow-up-right"></i></a></h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula ac justo in rutrum. Ut sodales, tortor eu molestie consequat, lacus urna dictum magna, non tristique nibh sem quis neque. Aenean ut diam at purus rutrum porttitor at at neque. Vivamus non aliquam mi. Praesent blandit nibh lectus, ut cursus erat laoreet nec.</p>
+                                <h2 class="card-title"><a href="https://www.owenbeatty.com/memory-game/" target="_blank" rel="noopener noreferrer" class="stretched-link no-style">Memory Game <i class="bi bi-box-arrow-up-right"></i></a></h2>
+                                <p class="card-text">Game built with HTML and JavaScript to test user's pattern memorization and track their high scores. Animates custom buttons and plays sounds when they're clicked. Can be played on desktop or mobile.</p>
+                                <p>
+                                    <span class="badge"><i class="devicon-html5-plain"></i> HTML5</span>
+                                    <span class="badge"><i class="devicon-javascript-plain"></i> JavaScript</span>
+                                    <span class="badge"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="https://github.com/OwenBeatty/memory-game" target="_blank" rel="noopener noreferrer" class="no-style"><i class="bi bi-github"></i> Repository <i class="bi bi-box-arrow-up-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <footer>
-        <p><a href="https://github.com/OwenBeatty?tab=repositories" target="_blank" rel="noopener noreferrer" class="footer-icon bi bi-github"></a><a href="https://www.linkedin.com/in/owen-beatty-472121179" target="_blank" rel="noopener noreferrer" class="footer-icon bi bi-linkedin"></a></p>
-    </footer>
+    <!-- Modal SSK image 1 -->
+    <div class="modal fade modal-xl" id="modal-ssk1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="images/ssk1.png" width="100%" alt="Scrabble Score Keeper">
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <p hidden>https://colorhunt.co/palette/4d46465b56567fcd91f5eaea</p>
+    <!-- Modal SSK image 2 -->
+    <div class="modal fade modal-xl" id="modal-ssk2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="images/ssk2.png" width="100%" alt="Scrabble Score Keeper">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal memory game image -->
+    <div class="modal fade modal-xl" id="modal-memory" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="images/memorygame.png" width="100%" alt="Scrabble Score Keeper">
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+    <!-- Footer with links -->
+    <footer>
+        <p><a href="https://github.com/OwenBeatty?tab=repositories" target="_blank" rel="noopener noreferrer" class="footer-icon bi bi-github"></a><a href="https://www.linkedin.com/in/owenbeatty" target="_blank" rel="noopener noreferrer" class="footer-icon bi bi-linkedin"></a></p>
+    </footer>
 </body>
 </html>

@@ -9,7 +9,7 @@ p {
     font-size: 1.5rem;
 }
 
-h1 {
+h1, h2, h4 {
     font-family: 'Comfortaa', cursive;
     font-weight: 500;
 }
@@ -47,6 +47,15 @@ h6 {
     margin-bottom: 2rem;
 }
 
+.bio {
+    margin-bottom: 4rem;
+}
+
+.badge {
+    background-color: #EDE6DB;
+    color: #417D7A;
+}
+
 #projects {
     background-color: #EDE6DB;
     color: #417D7A;
@@ -81,14 +90,18 @@ h6 {
 .card {
     background-color: #417D7A;
     color: #EDE6DB;
-    margin-top: 1rem;
 }
 
-.card-title {
-    font-size: 2rem;
+.card-body, .card-footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
-a.nostyle {
+.card-text {
+    margin-bottom: 2rem;
+}
+
+a.no-style {
     text-decoration: inherit;
     color: inherit;
 }
@@ -117,6 +130,7 @@ footer {
     background-color: #EDE6DB;
     padding: 5% 0% 1%;
     text-align: center;
+    padding-top: 10rem;
 }
 
 footer a, footer a:hover {
