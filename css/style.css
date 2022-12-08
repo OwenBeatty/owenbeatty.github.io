@@ -102,6 +102,10 @@ h6 {
     margin-bottom: 2rem;
 }
 
+.col-lg-6 {
+    margin-bottom: 2rem;
+}
+
 a.no-style {
     text-decoration: inherit;
     color: inherit;
